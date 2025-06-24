@@ -85,7 +85,7 @@ npm install --no-audit --no-fund --prefer-offline --force user-agents axios meo-
 <details>
 <summary><strong>🗂️ 2. <code>datas.txt</code> - User Data</strong></summary>
 
-📥 [Guide from Telegram]()
+📥 [Guide from Telegram](https://t.me/KeoAirDropFreeNee/1891)
 
 ```txt
 ey...
