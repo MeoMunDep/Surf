@@ -5,5 +5,6 @@
   "delayEachAccount": [1, 1],
   "timeToRestartAllAccounts": 86400,
   "howManyAccountsRunInOneTime": 10000,
-  "doTasks": true
+  "doTasks": true,
+  "chatWithAI": true
 }
