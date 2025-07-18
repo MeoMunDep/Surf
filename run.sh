@@ -75,7 +75,6 @@ check_git
 create_default_configs() {
     cat > configs.json << EOL
 {
-    "timeZone": "en-US",
     "rotateProxy": false,
     "skipInvalidProxy": false,
     "proxyRotationInterval": 2,
@@ -115,7 +114,7 @@ print_green "Configuration files have been checked."
 
 print_yellow "Checking dependencies..."
 cd "$MODULES_DIR"
-npm install --no-audit --no-fund --prefer-offline --force user-agents axios meo-forkcy-colors meo-forkcy-utils https-proxy-agent socks-proxy-agent 
+npm install --no-audit --no-fund --prefer-offline --force user-agents axios meo-forkcy-colors meo-forkcy-utils meo-forkcy-proxy
 cd - > /dev/null
 print_green "Dependencies installation completed!"
 
